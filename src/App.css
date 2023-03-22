@@ -7,6 +7,12 @@
   pointer-events: none;
 }
 
+.ClockLink:hover {
+  cursor: pointer;
+  background-color: lightblue;
+  box-shadow: 4px 3px #61dafb;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
