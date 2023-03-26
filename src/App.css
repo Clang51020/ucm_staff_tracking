@@ -34,6 +34,37 @@
   color: #61dafb;
 }
 
+.main-nav-bar {
+display: flex;
+position:sticky;
+position: -webkit-sticky;
+top: 0;
+left: 0;
+justify-content: space-between;
+flex-direction: row;
+background-color: #61dafb;
+width: 100%;
+}
+
+.main-nav-bar img {
+  height: 45px;
+  padding: 10px 10px;
+}
+
+.main-nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5em;
+  align-items: center;
+}
+
+.link-item {
+  text-decoration: none;
+  padding: 0px 15px;
+  color: white;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
